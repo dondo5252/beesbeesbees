@@ -6,6 +6,7 @@ describe('HoneyMakerBee class functionality', function() {
     honeyBee = new HoneyMakerBee();
   });
 
+
   /*  Overwrite methods from superclass  */
 
   it('should have an age property that is set to `10`', function() {
@@ -13,7 +14,7 @@ describe('HoneyMakerBee class functionality', function() {
   });
 
   it('should have a job property that is set to `make honey`', function() {
-    expect(honeyBee.job).to.equal('make honey')
+    expect(honeyBee.job).to.equal('make honey');
   });
 
   /*  Inherited from superclass  */

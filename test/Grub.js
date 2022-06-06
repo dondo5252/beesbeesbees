@@ -3,8 +3,11 @@ describe('Grub class functionality', function() {
   verifyClass(Grub).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
+
     grub = new Grub();
   });
+
+
 
   it('should have an `age` property that is set to `0`', function() {
     expect(grub.age).to.equal(0);
@@ -23,3 +26,8 @@ describe('Grub class functionality', function() {
   });
 
 });
+// grub.age = 0;
+// grub.color = 'pink';
+// grub.food = 'jelly';
+// grub.eat = function () {
+//   console.log('eat something');

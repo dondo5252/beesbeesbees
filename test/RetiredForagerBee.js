@@ -4,7 +4,9 @@ describe('RetiredForagerBee class functionality', function() {
 
   beforeEach(function() {
     retiredForager = new RetiredForagerBee();
+
   });
+
 
   /*  Overwrite methods from superclass  */
 

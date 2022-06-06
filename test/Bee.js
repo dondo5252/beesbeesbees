@@ -6,6 +6,7 @@ describe('Bee class functionality', function() {
     bee = new Bee();
   });
 
+
   /*  Overwrite methods from superclass  */
 
   it('should have an `age` property that is set to `5`', function() {
